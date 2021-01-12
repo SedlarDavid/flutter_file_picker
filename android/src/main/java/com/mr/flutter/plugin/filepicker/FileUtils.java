@@ -126,7 +126,7 @@ public class FileUtils {
         } else {
 
             file.getParentFile().mkdirs();
-            try {
+/*            try {
                 fos = new FileOutputStream(path);
                 try {
                     final BufferedOutputStream out = new BufferedOutputStream(fos);
@@ -165,7 +165,7 @@ public class FileUtils {
                 }
                 Log.e(TAG, "Failed to retrieve path: " + e.getMessage(), null);
                 return null;
-            }
+            }*/
         }
 
         Log.d(TAG, "File loaded and cached at:" + path);
